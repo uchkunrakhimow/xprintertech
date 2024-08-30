@@ -71,14 +71,14 @@ php artisan key:generate
 ```
 
 - #### Watching sass
- ```
-    npm run dev
- ```
-- #### Build production
+```bash
+npm run dev
 ```
-    npm run build
+- #### Build production
+```bash
+npm run build
 ```
 - #### Serve
-```
+```bash
 php artisan serve
 ```
