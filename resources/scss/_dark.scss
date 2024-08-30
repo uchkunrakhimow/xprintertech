@@ -1,0 +1,253 @@
+body[data-theme="dark"] {
+    background: $color_4;
+
+    h1, h2, p {
+        color: $color_2;
+    }
+
+    .nav-link, .title, .description {
+        color: $color_2;
+    }
+
+    .card,
+    .dark-text-dark {
+        background: $color_4;
+    }
+
+    .dark-text-dark {
+        color: $color_2;
+    }
+
+    .dropdown-menu {
+        background: $color_4;
+        border: 1px solid $color_2;
+
+        li {
+            .dropdown-item:hover {
+                background: $color_2;
+                color: $color_4;
+            }
+        }
+    }
+
+    .dropdown-item {
+        color: $color_2;
+
+        &:hover {
+            background: $color_4;
+            color: $color_2;
+        }
+    }
+
+    .card-body {
+        .card-text,
+        .card-title,
+        .contact-icon {
+            color: $color_2;
+        }
+
+        .contact-icon {
+            i {
+                color: $color_2;
+            }
+        }
+    }
+
+    input,
+    textarea {
+        background: $color_4;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: $color_2;
+    }
+
+    .card {
+        border-color: $color_4;
+        .view {
+            border-color: $color_4;
+        }
+
+    }
+
+    .global-pagination {
+        .pagination {
+            .page-item {
+                &.disabled:hover {
+                    .page-link {
+                        background: $color_4;
+                        color: $color_2;
+                    }
+                }
+                &.active {
+                    .page-link {
+                        background: $color_2;
+                        color: $color_4;
+                        border-color: $color_2;
+                    }
+                }
+                &:hover {
+                    .page-link {
+                        background: $color_2;
+                        color: $color_4;
+                        border-color: $color_2;
+                    }
+                }
+                .page-link {
+                    background: $color_4;
+                    color: $color_2;
+                }
+            }
+        }
+    }
+
+    .form {
+        .form-label {
+            color: $color_2;
+
+        }
+    }
+
+    .row {
+        .title,
+        .description {
+            color: $color_2;
+        }
+
+        ul {
+            li {
+                color: $color_2;
+            }
+        }
+    }
+
+    .global-nav {
+        .nav-url {
+            a, i {
+                color: $color_2;
+            }
+
+            a:hover {
+                color: $color_5;
+            }
+        }
+    }
+
+    .news-section {
+        background: $color_4;
+
+        .card {
+            .card-title {
+                color: $color_2;
+            }
+            .card-body {
+                background: $color_4;
+            }
+        }
+    }
+
+    .list-group {
+        --bs-list-group-bg: $color_4;
+    }
+
+    .product-section {
+        .card-product-info {
+            .title {
+                color: $color_2;
+            }
+        }
+    }
+
+    .products-component {
+        h1, p {
+            color: $color_2;
+        }
+
+        .card {
+            .card-body {
+                background: $color_4;
+            }
+        }
+
+        .btn-light {
+            background: $color_4;
+            color: $color_2
+        }
+    }
+
+    .certificates-component {
+        .lg-img-div {
+            background: $color_4;
+            border: 1px solid $color_2;
+        }
+        .cert-width {
+            .img-group {
+                .img-block {
+                    background: $color_4;
+                    border: 1px solid $color_2;
+                }
+            }
+        }
+    }
+
+    .news-component {
+        .news-card {
+            .description {
+                color: $color_2;
+            }
+        }
+    }
+
+    .homeSlider {
+        .swiper-button-prev,
+        .swiper-button-next {
+            background: $color_4;
+        }
+    }
+
+    .drivers-section {
+        .card {
+            .card-text {
+                color: $color_2;
+            }
+
+            .view {
+                img {
+                    border-radius: 12px;
+                }
+            }
+        }
+    }
+
+    .global-card {
+        .card {
+            .card-title {
+                color: $color_2;
+            }
+            .recently-products {
+                border-color: $color_4;
+                background: $color_4;
+                img {
+                    border-radius: 12px;
+                }
+            }
+        }
+    }
+
+    .xzoom-container {
+        .xzoom-thumbs {
+            background: $color_4;
+        }
+    }
+
+    table, thead, tbody, thead tr th, tbody tr td {
+        color: $color_2;
+    }
+
+    .pagination-swiper {
+        .fa-solid {
+            color: $color_2;
+        }
+    }
+}

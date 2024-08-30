@@ -1,0 +1,246 @@
+// Product list page
+
+.product-section {
+
+    .list-group {
+        .list-group-item {
+            border: $none;
+            border-radius: 0;
+            padding: 0;
+        }
+
+        .list-group-item a {
+            display: block;
+            padding: 5px;
+            transition: $transition;
+
+            &:hover {
+                background: $color_7;
+                color: $color_2;
+            }
+        }
+    }
+
+    .right {
+        .card-product-grid {
+            .img-wrap {
+                position: relative;
+                height: 200px;
+                border-radius: 12px;
+                img {
+                    max-height: 100%;
+                    max-width: 100%;
+                    transition: $transition;
+                    border-radius: 12px;
+                }
+            }
+            .card-product-info {
+                padding: 0.25rem 0.5rem;
+                overflow: $hidden;
+            }
+            .title {
+                color: $color_4;
+                height: 2.6rem;
+                font-weight: 600;
+                font-size: 15px;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: $hidden;
+                margin-bottom: 0.15rem;
+                text-align: $center;
+            }
+            &:hover img {
+                transition: $transition;
+                transform: scale(1.1);
+            }
+        }
+        .img-wrap {
+            text-align: $center;
+            overflow: $hidden;
+            display: block;
+        }
+    }
+}
+
+// Product detail page
+.detail-section {
+    .xzoom-container {
+        .xzoom {
+            width: 400px;
+            box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%);
+        }
+        .xzoom-preview {
+            box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%);
+        }
+        .xzoom-thumbs {
+            background: $color_9;
+            padding-top: 10px;
+            box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%);
+            .xzoom-gallery {
+                width: 52px;
+            }
+
+            .xactive {
+                border-color: $color_7;
+                border-width: 2px;
+            }
+        }
+        .zoomSlider {
+            .swiper-slide {
+                width: auto;
+            }
+        }
+    }
+    .pro_info {
+
+        .h3 {
+            color: $color_7;
+            font-weight: 600;
+        }
+
+        .amount {
+            display: table-row;
+        }
+
+        .metatit {
+            display: table-cell;
+            padding: 6px 0;
+            padding-right: 16px;
+            white-space: nowrap;
+        }
+
+        .suggest {
+            color: #777;
+            display: table-cell;
+            padding: 6px 0;
+        }
+
+        .links {
+            margin: 1rem 0;
+            a i {
+                font-size: 1.5rem;
+            }
+        }
+
+        .btn {
+            background: $color_7;
+            border-color: $color_7;
+            font-weight: 600;
+        }
+    }
+    .no-border {
+        .card {
+            -webkit-box-shadow: 0px 5px 10px 2px rgb(34 60 80 / 20%);
+            -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+            box-shadow: 0px 5px 10px 2px rgb(34 60 80 / 20%);
+            border-color: #fff;
+            margin-bottom: 10px;
+        }
+    }
+
+
+    .btn {
+        margin-bottom: 10px;
+    }
+
+    .min_wrap {
+        width: 100%;
+        background-color: rgba(0, 0, 0, .05);
+
+        .gallery-thumbs {
+            user-select: none;
+            width: 100%;
+            .swiper-wrapper {
+                width: 350px;
+            }
+            .pagination-swiper {
+                margin: 5px 0;
+                .swiper-button-disabled {
+                    opacity: .5;
+                }
+                .fa-solid {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+
+}
+
+// News page
+.news-section {
+    background: $color_9;
+    .card {
+        -webkit-box-shadow: 0px 0px 10px -3px rgba(34, 60, 80, 0.23);
+        -moz-box-shadow: 0px 0px 10px -3px rgba(34, 60, 80, 0.23);
+        box-shadow: 0px 0px 10px -3px rgba(34, 60, 80, 0.23);
+        border-color: $color_2;
+        border-radius: 10px;
+        .img-thumbnail, .recently-products {
+            border-color: $color_2;
+        }
+    }
+}
+
+// Contact page
+.contact-section {
+    .contact-icon {
+        span {
+            i {
+                margin-right: .5rem;
+                color: $color_7;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .card {
+        .card-title {
+            font-weight: 500;
+            font-size: 18px;
+        }
+        -webkit-box-shadow: 0px 0px 10px -3px rgba(34, 60, 80, 0.23);
+        -moz-box-shadow: 0px 0px 10px -3px rgba(34, 60, 80, 0.23);
+        box-shadow: 0px 0px 10px -3px rgba(34, 60, 80, 0.23);
+        border-color: $color_2;
+        border-radius: 10px;
+    }
+}
+
+
+// Drivers page
+.drivers-section {
+    .card {
+        border-color: #fff;
+
+        .view {
+            text-align: $center;
+            border: 1px solid $color_10;
+            border-radius: 12px;
+            cursor: pointer;
+            img {
+                max-width: 60%;
+                transition: $transition;
+            }
+            &:hover {
+                img {
+                    opacity: .7;
+                }
+            }
+        }
+
+        .card-body {
+            padding: 0;
+            .card-text {
+                margin-top: .5rem;
+                color: $color_7;
+                font-weight: 500;
+            }
+            .btn {
+                transition: $transition;
+                font-weight: 500;
+            }
+        }
+    }
+}

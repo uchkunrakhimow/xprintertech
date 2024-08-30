@@ -1,0 +1,85 @@
+.global-card {
+    .card {
+        .recently-products {
+            background: #ededed;
+            margin: 1rem;
+            border: 1px solid #d8d5d5;
+            border-radius: 7px;
+
+            img {
+                transition: .3s ease-in-out;
+            }
+
+            &:hover {
+                img {
+                    opacity: .6;
+                }
+            }
+        }
+        .card-body {
+            padding: 7px;
+        }
+    }
+}
+
+.global-pagination {
+    .pagination {
+        .active > .page-link {
+            background-color: $color_7;
+            border-color: $color_7;
+            color: $color_2;
+        }
+
+        .page-link {
+            color: $color_4;
+        }
+
+        .page-link, .page-item {
+            transition: $transition;
+        }
+
+        .page-item.disabled:hover {
+            .page-link {
+                background-color: var(--bs-pagination-disabled-bg);
+                border-color: var(--bs-pagination-disabled-border-color);
+                color: $color_4;
+            }
+
+        }
+
+        .page-item.disabled {
+            .page-link {
+                color: $color_4;
+            }
+
+        }
+
+        .page-item:hover {
+            .page-link {
+                background-color: $color_7;
+                border-color: $color_7;
+                color: $color_2;
+            }
+        }
+    }
+}
+
+.global-nav {
+    .title {
+        font-size: 32px;
+        color: $color_7;
+        font-weight: 600;
+    }
+
+    .nav-url {
+        a {
+            transition: $transition;
+            font-size: 16px;
+
+            &:hover {
+                color: $color_8;
+            }
+
+        }
+    }
+}

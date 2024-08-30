@@ -1,0 +1,79 @@
+html, body {
+    transition: $transition;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.font-light {
+    font-weight: 400;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+
+.mt-5xl {
+    margin-top: 5rem;
+}
+
+.btn-light {
+    background-color: $color_9;
+    border-color: $color_1;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-light:hover {
+    background: $color_10;
+}
+
+.btn-primary {
+    background: $color_7;
+    border: $color_7;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.fz-12 {
+    font-size: 12px;
+}
+
+.swiper {
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.form-control:focus {
+    border-color: $color_3;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(2 77 128 / 25%);
+}
+
+.text-link {
+    color: $color_3;
+}
+
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
